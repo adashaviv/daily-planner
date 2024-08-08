@@ -1,0 +1,120 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(#00afb9, #fed9b7ff);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0;
+    color: #013747;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 16px;
+  
+}
+
+h1 {
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-top: 15%;
+    
+        
+}
+
+#date {
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 400;
+    font-size: 32px;
+    padding: none;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 16px;
+    background: #fdfcdc;
+    padding: 4%;
+    margin: 2% 6%;
+    
+}
+
+#msg {
+    font-style: italic;
+    margin: 0% 6%;
+    margin-bottom: 10%;
+
+
+}
+
+.input-area {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.add-btn {
+    background: #0081a7;
+    padding: 6% 4%;
+    margin: 0% 0%;
+    grid-column: 1;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.item {
+    font-size: 16px;
+    padding: 2% 2%;
+    border: none;
+}
+
+.item:focus {
+    outline-width: 0px;
+
+}
+.btn {
+    border: none;
+    border-radius: 50px;
+    background: #0081a7;
+    color: white;
+    font-size: 18px;
+    padding: 4% 20%;
+    margin: 2% 6%;
+  
+
+}
+
+ul {
+    padding: 0;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.list-item {
+    list-style-type: none;
+    background: #fed9b7;
+    margin: 2% 0%;
+    padding: 2% 2% 2% 12%;
+    text-align: left;
+    position: relative;
+
+
+
+}
+
+.close-item {
+    background: #fed9b7;
+    padding: 0% 5% 2% 5%;
+    margin: 2% 0%;
+    position: absolute;
+    right: 2%;
+    top: 0;
+    bottom: 0;
+
+   
+    
+
+
+}

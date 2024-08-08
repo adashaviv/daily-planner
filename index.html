@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Today is</h1>
+    <div id="date">August 6</div>
+    <p id="msg">"Every morning is a reminder to let go the past and embrace the present.” ☀️ </p>
+    <div id="priorities">
+        <h2>🙏 TOP 3 PRIORITIES</h2>
+        <container class="input-area">
+            <span class="add-btn" id="priority-add-btn">+</span>
+            <input type="text" class="item" id="priority-item" placeholder="What are your priorities today?">
+        </container>
+
+        <ul id="priorities-list"></ul>
+
+    </div>
+
+    <div id="meal-plan">
+        <h2>🥗 MEAL PLAN</h2>
+        <container class="input-area">
+            <span class="add-btn" id="meal-add-btn">+</span>
+            <input type="text" class="item" id="meal-item" placeholder="What's for lunch? Dinner?">
+        </container>
+        <ul id="meal-list"></ul>
+
+    </div>
+
+    <div id="reminders">
+        <h2>✍️ REMINDERS & NOTES</h2>
+        <container class="input-area">
+            <span class="add-btn" id="reminder-add-btn">+</span>
+            <input type="text" class="item" id="reminder-item" placeholder="Anything else you need to note?">
+      </container>
+
+        <ul id="reminders-list"></ul>
+
+    </div>
+
+    <button class="btn" id="clear-btn">Clear the day</button>
+
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
