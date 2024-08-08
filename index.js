@@ -147,6 +147,8 @@ clearBtn.addEventListener("click", function() {
     remove(mealInDB)
     remove(reminderInDB)
     priorityUl.innerHTML = ""
+    mealUl.innerHTML = ""
+    reminderInDB.innerHTML = ""
 })
 
 // console.log(closeItemClass)
