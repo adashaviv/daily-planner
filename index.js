@@ -24,6 +24,7 @@ const priorityAddBtn = document.querySelector("#priority-add-btn")
 const mealAddBtn = document.querySelector("#meal-add-btn")
 const reminderAddBtn = document.querySelector("#reminder-add-btn")
 const clearBtn = document.querySelector("#clear-btn")
+const dateEl = document.querySelector("#date")
 
 const priorityInput = document.querySelector("#priority-item")
 const mealInput = document.querySelector("#meal-item")
@@ -41,6 +42,16 @@ const prioritySaved = []
 
 const closeItemClass = document.getElementsByClassName("close-item")
 
+
+function changeDate() {
+    const today = new Date()
+    const month = today.toLocaleString('default', { month: 'long' })
+    const day = today.getDate()
+
+    dateEl.textContent = month + " " + day
+}
+
+changeDate()
 
 priorityAddBtn.addEventListener("click", function() {
 
